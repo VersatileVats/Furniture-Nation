@@ -1,0 +1,110 @@
+body {
+  overflow-x: hidden;
+}
+
+nav {
+  font-family: "Pacifico", cursive;
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active {
+  border-left: #444 3px solid;
+}
+
+.navbar-brand .fas {
+  color: orange;
+  margin-right: 5px;
+}
+
+#showcase {
+  font-family: "Pacifico", cursive;
+}
+
+.carousel-item {
+  height: 450px;
+  position: relative;
+}
+
+.carousel-img-1 {
+  background: url("../img/person2.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-img-2 {
+  background: url("../img/room4.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-img-3 {
+  background: url("../img/person1.jpg");
+  background-size: cover;
+  background-position: center -120px;
+}
+
+#home-heading {
+  position: relative;
+  height: 200px;
+  background: url("../img/room.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: -550px center;
+  text-align: center;
+  color: #fff;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.light-overlay {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid;
+}
+
+#page-header {
+  height: 200px;
+  background: url("../img/lights.jpg");
+  background-position: center 600px;
+  background-attachment: cover;
+  border-bottom: 1px #eee solid;
+  color: #fff;
+  padding-top: 50px;
+}
+
+#gallery img {
+  border-radius: 10px;
+  border: 2px solid orange;
+}
+
+.about-img {
+  margin-top: -50px;
+}
+
+#main-footer {
+  background: #333;
+  color: #fff;
+}
+
+@media (max-width: 576px) {
+  .mb-resp {
+    margin-bottom: 5px;
+  }
+} ;
